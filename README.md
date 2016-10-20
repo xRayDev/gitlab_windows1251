@@ -24,4 +24,4 @@ Original source patch for old Gitlab version (from 31.10.2012) http://www.jackyf
 #### Источник проблемы
 Ruby-гем **charlock_holmes**, отвечающий за распознавание кодировки исходников и перевода их в UTF-8, не может понять, что дают ему Windows-1251.
 
-Первоначальный источник исправлений для сатрой версии GitLab (от 31.10.2012) http://www.jackyfox.com/2012/10/31/gitlab-non-utf-8-russian-comments/
+Первоначальный источник исправлений для старой версии GitLab (от 31.10.2012) http://www.jackyfox.com/2012/10/31/gitlab-non-utf-8-russian-comments/
