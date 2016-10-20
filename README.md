@@ -1,4 +1,4 @@
-# Gitlab windows1251
+# Gitlab windows1251 issue fix
 
 ### In english
 In Gitlab Windows-1251 encoding is still broken in the file viewer and the commit viewer. 
