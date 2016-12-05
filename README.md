@@ -1,11 +1,11 @@
 # Gitlab windows1251 issue fix
 
 ## Current FIX
-Version Gitlab **8.12.7**
+Version Gitlab **8.14.2**
 
 #### encoding_helper.rb
 * Source file: [encoding_helper.rb](https://github.com/xRayDev/gitlab_windows1251/blob/323047eca8c8c28a8b5705bcdf7efe1ad444cc89/encoding_helper.rb)
-* Path: /opt/gitlab/embedded/service/gem/ruby/2.3.0/gems/gitlab_git-**10.6.6**/lib/gitlab_git/**encoding_helper.rb**
+* Path: /opt/gitlab/embedded/service/gem/ruby/2.3.0/gems/gitlab_git-**10.7.0**/lib/gitlab_git/**encoding_helper.rb**
 * **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/21c7914500e3d1a8f6b68985cedfe9e65f5006d7
 * Link to a source file in the repository Gitlab: [encoding_helper.rb](https://gitlab.com/gitlab-org/gitlab_git/blob/5870f87ddcf0e993e8661d366dd9a402bd5ca611/lib/gitlab_git/encoding_helper.rb)
 
