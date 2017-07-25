@@ -25,8 +25,9 @@ module Gitlab
       return message.force_encoding("BINARY") if detect && detect[:type] == :binary
 
       # force detected encoding if we have sufficient confidence.
-      if detect && detect[:encoding] && detect[:confidence] > ENCODING_CONFIDENCE_THRESHOLD
-        message.force_encoding(detect[:encoding])
+      if detect && detect[:encoding]
+        message.force_encoding("windows-1251")
+        message.encode("utf-8", "windows-1251", undef: :replace, replace: "", invalid: :replace)
       end
 
       # encode and clean the bad chars
