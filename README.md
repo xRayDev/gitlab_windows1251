@@ -1,20 +1,21 @@
 # Gitlab windows1251 issue fix
 
 ## Current FIX
-Version Gitlab **8.14.2**
+Version Gitlab **9.4.0**
 
 #### encoding_helper.rb
-* Source file: [encoding_helper.rb](https://github.com/xRayDev/gitlab_windows1251/blob/323047eca8c8c28a8b5705bcdf7efe1ad444cc89/encoding_helper.rb)
-* Path: /opt/gitlab/embedded/service/gem/ruby/2.3.0/gems/gitlab_git-**10.7.0**/lib/gitlab_git/**encoding_helper.rb**
-* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/21c7914500e3d1a8f6b68985cedfe9e65f5006d7
-* Link to a source file in the repository Gitlab: [encoding_helper.rb](https://gitlab.com/gitlab-org/gitlab_git/blob/18a00af5f4a5bd5bd932071fa14fb5bafd86a3ab/lib/gitlab_git/encoding_helper.rb)
+* Source file: [encoding_helper.rb](https://github.com/xRayDev/gitlab_windows1251/blob/6abac2e77d4e4060ec9dcd12c55fd9a2845c211d/encoding_helper.rb)
+* Path (on the file system): /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/**encoding_helper.rb**
+* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/51120d37d72514f6bf8cc46a58b31d042393ce3b#diff-c8cc55e6dc0de3038e6e5875cc74197c
+* Link to a source file in the repository Gitlab: [encoding_helper.rb](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/gitlab/encoding_helper.rb)
 
 #### grit_ext.rb
-* Source file: [grit_ext.rb](https://github.com/xRayDev/gitlab_windows1251/blob/fae5ad9c645b72d1db80c28b89c3e5fea2b7a220/grit_ext.rb)
-* Path: /opt/gitlab/embedded/service/gem/ruby/2.3.0/gems/gitlab-grit-**2.8.1**/lib/**grit_ext.rb**
-* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/0340b4fe93186876d78c9ce1e1de8116696280ea
-* Link to a source file in the repository Gitlab: [grit_ext.rb](https://gitlab.com/gitlab-org/gitlab-grit/blob/806485740f9706b913ceaa1fa665880495fc55d1/lib/grit_ext.rb)
+* Source file: [grit_ext.rb](https://github.com/xRayDev/gitlab_windows1251/blob/6abac2e77d4e4060ec9dcd12c55fd9a2845c211d/grit_ext.rb)
+* Path (on the file system): /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/gitlab-grit-2.8.1/lib/**grit_ext.rb**
+* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/51120d37d72514f6bf8cc46a58b31d042393ce3b#diff-e55f3c175cd7224582f98cacd85da9ca
+* Link to a source file in the repository Gitlab: [grit_ext.rb](https://gitlab.com/gitlab-org/gitlab-grit/blob/master/lib/grit_ext.rb)
 
+The paths to the files on the file system are specified for **omnibus-gitlab**.
 
 ### In english
 In Gitlab Windows-1251 encoding is still broken in the file viewer and the commit viewer. 
