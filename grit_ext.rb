@@ -22,8 +22,7 @@ module GritExt
 
     # encoding message to detect encoding
     if detect && detect[:encoding]
-      message.force_encoding("windows-1251")
-      message.encode("utf-8", "windows-1251", undef: :replace, replace: "", invalid: :replace)
+      message.force_encoding(detect[:encoding])
     end
 
     # encode and clean the bad chars
