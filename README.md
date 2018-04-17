@@ -1,18 +1,18 @@
 # Gitlab windows1251 issue fix
 
 ## Current FIX
-Version Gitlab **9.4.0**
+Version Gitlab **10.6.4**
 
 #### encoding_helper.rb
-* Source file: [encoding_helper.rb](https://github.com/xRayDev/gitlab_windows1251/blob/6abac2e77d4e4060ec9dcd12c55fd9a2845c211d/encoding_helper.rb)
+* Source file: [encoding_helper.rb](https://github.com/xRayDev/gitlab_windows1251/blob/b211d889a55716f6794e1e3157558853e7fa42d8/encoding_helper.rb)
 * Path (on the file system): /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/**encoding_helper.rb**
-* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/51120d37d72514f6bf8cc46a58b31d042393ce3b#diff-c8cc55e6dc0de3038e6e5875cc74197c
+* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/1cdf4dd7db94e254c4487edeeea8675c8db7aa72#diff-c8cc55e6dc0de3038e6e5875cc74197c
 * Link to a source file in the repository Gitlab: [encoding_helper.rb](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/gitlab/encoding_helper.rb)
 
 #### grit_ext.rb
-* Source file: [grit_ext.rb](https://github.com/xRayDev/gitlab_windows1251/blob/6abac2e77d4e4060ec9dcd12c55fd9a2845c211d/grit_ext.rb)
+* Source file: [grit_ext.rb](https://github.com/xRayDev/gitlab_windows1251/blob/b211d889a55716f6794e1e3157558853e7fa42d8/grit_ext.rb)
 * Path (on the file system): /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/gitlab-grit-2.8.1/lib/**grit_ext.rb**
-* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/51120d37d72514f6bf8cc46a58b31d042393ce3b#diff-e55f3c175cd7224582f98cacd85da9ca
+* **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/1cdf4dd7db94e254c4487edeeea8675c8db7aa72#diff-e55f3c175cd7224582f98cacd85da9ca
 * Link to a source file in the repository Gitlab: [grit_ext.rb](https://gitlab.com/gitlab-org/gitlab-grit/blob/master/lib/grit_ext.rb)
 
 The paths to the files on the file system are specified for **omnibus-gitlab**.
