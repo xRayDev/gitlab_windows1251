@@ -21,9 +21,10 @@ module Gitlab
       detect = CharlockHolmes::EncodingDetector.detect(message)
       return message.force_encoding("BINARY") if detect_binary?(message, detect)
 
-      if detect && detect[:encoding] && detect[:confidence] > ENCODING_CONFIDENCE_THRESHOLD
+      if detect && detect[:encoding]
         # force detected encoding if we have sufficient confidence.
-        message.force_encoding(detect[:encoding])
+        message.force_encoding("windows-1251")
+	message.encode("utf-8", "windows-1251", undef: :replace, replace: "", invalid: :replace)
       end
 
       # encode and clean the bad chars
