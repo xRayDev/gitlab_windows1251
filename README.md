@@ -1,7 +1,7 @@
 # Gitlab windows1251 issue fix
 
 ## Current FIX
-Version Gitlab **10.6.4**
+Version Gitlab **11.1.4**
 
 #### encoding_helper.rb
 * Source file: [encoding_helper.rb](https://github.com/xRayDev/gitlab_windows1251/blob/b211d889a55716f6794e1e3157558853e7fa42d8/encoding_helper.rb)
@@ -11,7 +11,7 @@ Version Gitlab **10.6.4**
 
 #### grit_ext.rb
 * Source file: [grit_ext.rb](https://github.com/xRayDev/gitlab_windows1251/blob/b211d889a55716f6794e1e3157558853e7fa42d8/grit_ext.rb)
-* Path (on the file system): /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/gitlab-grit-2.8.1/lib/**grit_ext.rb**
+* Path (on the file system): /opt/gitlab/embedded/lib/ruby/gems/2.4.0/gems/gitlab-grit-2.8.2/lib/**grit_ext.rb**
 * **Fix:** https://github.com/xRayDev/gitlab_windows1251/commit/1cdf4dd7db94e254c4487edeeea8675c8db7aa72#diff-e55f3c175cd7224582f98cacd85da9ca
 * Link to a source file in the repository Gitlab: [grit_ext.rb](https://gitlab.com/gitlab-org/gitlab-grit/blob/master/lib/grit_ext.rb)
 
